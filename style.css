@@ -1,77 +1,6 @@
-/*media css*/
-@media only screen and (max-width:700px){
-    .nav__toggle{
-        position: absolute;
-        cursor: pointer;
-        margin: 0rem 1rem;
-        right:0;
-        
-        
-    }
-    .nav svg{
-            width: 1.5rem;
-            fill:gray;
-        }
-    
-    .close{
-        display: none;
-    }
-    
-    
-    .nav__checkbox{
-        display: none;
-    }
-    .sidebarList{
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-        align-items: center;
-        margin: 1rem;
-        list-style:none;
-       
-    }
-    div ul li {
-        text-decoration: none;
-        display: none;
-        
-    }
-    div ul li p a{
-        text-decoration: none;
-        list-style: none;
-        display: block;
-    }
-    .imglogo{
-        width: 5rem;
-        fill: gray;
-        display: block;
-        position: fixed;
-        left: 2rem;
-    }
-    label.nav__toggle{
-        width:52px;
-    }
-    svg.menu{
-        width: 52px;
-        height: 52px;
-        fill: black;
-    }
-    svg.close{
-        width: 52px;
-        height: 52px;
-        fill: black;
-    }
-    #nav__checkbox:checked ~ div .sidebarList li{
-        display: block;
-    }
-    #nav__checkbox:checked ~ label.nav__toggle .close{
-        display: block;
-    }
-    #nav__checkbox:checked ~ label.nav__toggle .menu{
-        display: none;
-    }
-    }
-/*media css*/
+
 /*titre*/
+@media (min-width:701px){
 .headtitle{
     display: flex;
     flex-direction: row;
@@ -175,7 +104,7 @@
         }
     
     /*hover effect navbar*/
-    .buttonNavbar{
+    button.buttonNavbar{
         color: black;
         background-color: white;
         width: 13%;
@@ -191,7 +120,7 @@
        top: 2em;
     
         } 
-     .buttonNavbar:hover{
+    button.buttonNavbar:hover{
     
         color: white;
         background-color: black;
@@ -365,5 +294,5 @@
     /* Bas de page */ 
         
     
-    
+}
 
