@@ -2,15 +2,20 @@
 /*titre*/
 @media only screen and
  (min-width: 1024px){
- 
+ #nav__checkbox{
+     display: none;
+ }
+ label svg{
+     display: none;
+ }
 .headtitle{
     display: flex;
     flex-direction: row;
     margin:0;
     padding:0;
     position: absolute;
-    left: 10.95%;
-    top: 0%;
+    left: 11%;
+    top: 0;
     color: white;
     font-size: 25px;
     font-weight: none;
@@ -36,7 +41,7 @@
     
     
     /*Navigation bar properties*/
-    /*hover effect navbar*/
+    /*hover effect navbar*//*
     #acceuil::after{
         content: "";
         display: inline-block;
@@ -104,7 +109,7 @@
     #hebergements:hover::after{
         transform:scale(1)
         }
-    
+    */
     /*hover effect navbar*/
     button.buttonNavbar{
         color: black;
