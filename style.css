@@ -1,6 +1,8 @@
 
 /*titre*/
-@media (min-width:701px){
+@media only screen and
+ (min-width: 1024px){
+ 
 .headtitle{
     display: flex;
     flex-direction: row;
