@@ -56,7 +56,7 @@
         flex-direction: column;
         gap: 2rem;
         align-items: center;
-        margin: 0;
+        margin:0;
         list-style:none;
         background-color: white;
         overflow:hidden;
@@ -64,14 +64,15 @@
         overflow: auto;
         position: fixed;
         top: 0px;
-       
         text-align: center;
+    
         
     }
      /*Liste menu bloc*/
      /*Liste menu item*/
      ul .sidebarList{
         width: 100%;
+        
     }
     .sidebarList .current{
         text-decoration: solid black underline 3px;
@@ -81,7 +82,7 @@
         
     
     div ul li a{
-        margin: 0;
+        margin:60px 0 0 0;
         padding: 0;
         
         box-sizing: border-box;
@@ -115,6 +116,9 @@
         background-color:white;
         padding: 60px 60px 60px 60px;
         color: black;
+        font-size: large;
+        font-weight: bold;
+        width: 70em;
         
     }
     div ul li a:hover{
@@ -151,7 +155,9 @@
         border: solid white;
         border-radius: 2px;
         
-    
+        width: 70em;
+        height: 8em;
+        margin:70px 0 70px 0;
         } 
 
 
@@ -161,9 +167,9 @@
     /*Liste menu item*/
    
     /*nab button*/
-    #nav__checkbox:checked ~ div ul li a{
-        display: block;
+    #nav__checkbox:checked ~ div li a{
         
+        display: block;
     }
    
     #nav__checkbox:checked ~ label.nav__toggle .close{
@@ -175,6 +181,7 @@
     
     #nav__checkbox:checked ~ div ul button{
         display: block;
+        transition: all 0.5s ease-out;
     }
     /*nab button*/
     /*video*/
