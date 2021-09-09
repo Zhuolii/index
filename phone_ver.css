@@ -110,6 +110,7 @@
         text-decoration: none;
         list-style: none;
          color: black;
+         display: none;
 
      }
     div ul li a{
