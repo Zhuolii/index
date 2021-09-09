@@ -287,17 +287,22 @@
     
     /* Bas de page */
     
-    .footer{
+    div.grid-container{
       
         bottom: 0px;
         left: 0px;
         background-color: rgba(14, 13, 13, 0.98);
         border: solid rgba(14, 13, 13, 0.98) 2px;
         color: white;
-        
+        display:grid;
+        grid-template-rows:  350px 350px 350px ;
         }
       
     
+        div.grid-container img.footerlogo{
+     
+        grid-row: cols-1;
+    }
     /* Bas de page */ 
         
     
