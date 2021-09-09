@@ -62,7 +62,7 @@
         align-items: center;
         margin:0;
         list-style:none;
-        background-color: rgb(243, 243, 243);
+        background-color: rgb(255, 255, 255);
         z-index: 100;
         
         width: 1050px;
@@ -132,8 +132,8 @@
         
     }
     div ul li a:hover{
-        background-color: rgb(197, 194, 187);
-        color: white;
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
         
     }
     div ul button{
