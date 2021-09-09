@@ -188,6 +188,16 @@
         transition: all 0.5s ease-out;
     }
     /*nab button*/
+    /* nav title*/
+
+    #navTitle{
+        position: fixed;
+        
+        top: 2em;
+        left: 9em;
+        font-weight: strong;
+    }
+    /* nav title*/
     /*video*/
     video { 
         
