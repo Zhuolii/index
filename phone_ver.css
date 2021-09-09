@@ -50,6 +50,7 @@
         width: 100%;
         height: 10em;
         opacity: 0.94;
+        position: fixed;
         
       
     }
@@ -196,6 +197,7 @@
 
     #navTitle{
         position: fixed;
+        z-index: 100;
         
         top: 2em;
         left: 9em;
