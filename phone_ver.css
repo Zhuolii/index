@@ -1,9 +1,7 @@
 
 @media (max-width: 1023px)
 {
-    #logo{
-        content: url(.\image-video/homeicone.jpg)
-    }
+   
     html{
         width: max-content;
         height: max-content;
