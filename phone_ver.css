@@ -62,7 +62,7 @@
         align-items: center;
         margin:0;
         list-style:none;
-        background-color: white;
+        background-color: rgb(235, 231, 231);
         
         width: 1050px;
         overflow: auto;
@@ -146,12 +146,15 @@
         color: white;
     }
     .imglogo{
-        width: 5rem;
+        width: 9rem;
+        height: 9rem;
         fill: gray;
         display: block;
         position: fixed;
-        top: 3rem;
+        top: 0.5rem;
         left: 2rem;
+        border-radius: 5rem;
+        
     }
     /*bouton voir tarrif*/
     button.buttonNavbar{
