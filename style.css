@@ -240,11 +240,8 @@
     
     /* navigation bar list properties*/
     /*image properties*/
-    img{
-        
-    width: 65px;
-    height: 65px;
-    }
+    
+    
     .imglink{
         padding: 0;
         margin: 0;
@@ -256,9 +253,11 @@
     .imglogo{
      float: left;
      position: absolute;
-     left:20px;
+     left:10px;
      top:15px;
      border-radius: 5px;
+     width: 60px;
+     height: 60px;
      
     
     
