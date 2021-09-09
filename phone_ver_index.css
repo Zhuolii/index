@@ -14,6 +14,7 @@ img.imageIndex{
 #welcome2{
     
     position: absolute;
+    z-index: 2;
     top: 380px;
     left: 300px;
     color: white;
