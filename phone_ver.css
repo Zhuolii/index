@@ -62,7 +62,7 @@
         margin:0;
         list-style:none;
         background-color: white;
-        overflow:hidden;
+        
         width: 1050px;
         overflow: auto;
         position: fixed;
@@ -70,17 +70,12 @@
         left: -50px;
         text-align: center;
         align-items: center;
-    
+        
         
     }
      /*Liste menu bloc*/
      /*Liste menu item*/
-     ul .sidebarList{
-        width: 100%;
-        z-index: 300;
-        
-        
-    }
+     
     .sidebarList .current{
         text-decoration: solid black underline 3px;
         text-underline-offset: 4px;
