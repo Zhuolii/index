@@ -113,6 +113,9 @@
          display: none;
 
      }
+     p.headtitle{
+         display: none;
+     }
     div ul li a{
         
         text-decoration: none;
