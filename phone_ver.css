@@ -18,7 +18,7 @@
    /* bouton de navigation*/
     label.nav__toggle{
         position:fixed;
-        left:55em;
+        left: 55em;
         top:3em;
         z-index: 200;
         

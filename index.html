@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="diapoindex.css">
     <link rel="stylesheet" href="phone_ver_index.css">
-    <link rel="icon" type="image/png" sizes="32x32"class="pageLogo" href="./favicon/favicon-96x96.png">
+   <link rel="icon" type="image/png" sizes="32x32"class="pageLogo" href="./favicon/favicon-96x96.png">
 <link rel="stylesheet" href="phone_ver.css"/>
 <link rel="stylesheet" href="style.css"/>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous/>"/>
-
+ <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous/>"/>
+    -->
 </head>
 <body>
     <!--Barre de navigation-->
@@ -39,7 +40,7 @@
 <div class="siteWeb">
     
   <div class="videoDiv">
-   <video id="video" autoplay muted loop class="video"><source src=".\image video/video.mp4" type=video/mp4></video>
+   <video id="video" autoplay muted loop class="video"><source src=".\image video/video.mp4" type=video/mp4 style="width:1024px; height:1024px"></video>
     </div>
 
      <p>exeple contenu</p>
@@ -88,7 +89,7 @@
 <!--Code mobile-->
 
 <div class="siteMobile">
-    <div class="grid-container" >
+   <div class="grid-container" >
      
      <div id="image_grid_container" class="grid-item">
          
@@ -156,78 +157,37 @@
 
        
 
-        <div id="item7" class="grid-item">
+    </div>-->
+
+        
+    <div class="slidercontainer">  
+        <div class="showSlide fade">  
+            <img src=".\images/img1.jpg" style="width:980px; height:827.19px;" />  
+            <div class="content">IMAGE 1</div>  
+        </div>  
+        <div class="showSlide fade">  
+            <img src=".\images/img2.jpg"style="width:980px; height:827.19px;/>  
+            <div class="content">IMAGE 2</div>  
+        </div>  
+  
+        <div class="showSlide fade">  
+            <img src=".\images/img3.jpg"style="width:980px; height:827.19px;/>  
+            <div class="content">IMAGE 3</div>  
+        </div>  
+        <div class="showSlide fade">  
+            <img src=".\images/img4.jpg"style="width:980px; height:827.19px;/>  
+            <div class="content">IMAGE 4</div>  
+        </div>  
+        <!-- Navigation arrows -->  
+         <a class="left" onclick="nextSlide(-1)">❮</a>  
+        <a class="right" onclick="nextSlide(1)">❯</a> 
+    </div> 
+        <br>    <br> <br> <br> <br> <br> 
 
 
-        </div>
-
-        <div id="item8" class="grid-item">
-
-
-        </div>
-        <div id="slider">
-            <input type="radio" name="slider" id="slide1" checked>
-            <input type="radio" name="slider" id="slide2">
-            <input type="radio" name="slider" id="slide3">
-            <input type="radio" name="slider" id="slide4">
-            <div id="slides">
-                <div id="overflow">
-                    <div class="inner">
-                        <div class="slide slide-1">
-                            <div class="slide-content">
-                                <h2>Slide 1</h2>
-                                <p>Content for Slide 1</p>
-                            </div>
-                        </div>
-                        <div class="slide slide-1">
-                            <div class="slide-content">
-                                <h2>Slide 2</h2>
-                                <p>Content for Slide 2</p>
-                            </div>
-                        </div>
-                        <div class="slide slide-1">
-                            <div class="slide-content">
-                                <h2>Slide 3</h2>
-                                <p>Content for Slide 3</p>
-                            </div>
-                        </div>
-                        <div class="slide slide-1">
-                            <div class="slide-content">
-                                <h2>Slide 4</h2>
-                                <p>Content for Slide 4</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="controls">
-            <label for="slide1"></label>
-            <label for="slide2"></label>
-            <label for="slide3"></label>
-            <label for="slide4"></label>
-        </div>
-        <div id="bullets">
-            <label for="slide1"></label>
-            <label for="slide2"></label>
-            <label for="slide3"></label>
-            <label for="slide4"></label>
-        </div>
-        <br> <br> <br> <br> <br>
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-
+        
+        
+    
 
         
         
@@ -241,8 +201,8 @@
         
         
 <!--Code mobile-->
-  <script scr="javascript.js"></script>
-
+  
+ <script type="text/javascript" src="diapo.js"></script>
 
 
 
