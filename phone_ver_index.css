@@ -235,11 +235,14 @@ div.grid-item img{
 }
 #bullets label {
     display: inline-block;
-    width: 10px;
-    height: 10px;
+    width: 30px;
+    height: 30px;
     border-radius: 100%;
     background: #ccc;
-    margin: 0 10px;
+    margin: 0 30px;
+}
+#bullets label:checked{
+    background-color: gray;
 }
 #slide1:checked ~ #bullets label:nth-child(1),
 #slide2:checked ~ #bullets label:nth-child(2),
