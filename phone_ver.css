@@ -18,7 +18,7 @@
    /* bouton de navigation*/
     label.nav__toggle{
         position:fixed;
-        right: 3em;
+        left:55em;
         top:3em;
         z-index: 200;
         
@@ -63,7 +63,7 @@
         margin:0;
         list-style:none;
         background-color: rgb(255, 255, 255);
-        z-index: 100;
+        z-index: 10000;
         
         width: 1050px;
         overflow: auto;
@@ -132,8 +132,9 @@
         
     }
     div ul li a:hover{
-        background-color: rgb(255, 255, 255);
-        color: rgb(0, 0, 0);
+        background-color: rgb(105, 105, 105);
+        color: rgb(255, 255, 255);
+        
         
     }
     div ul button{
@@ -216,7 +217,8 @@
       
     }
     /*video*/
-
+    
+   
 
 
 
