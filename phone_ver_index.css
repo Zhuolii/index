@@ -10,7 +10,7 @@
         background-image:
         linear-gradient(to bottom, rgba(214, 210, 210, 0.1), black),
         url('image video/chambre-2.jpg');
-        width: 1000px;
+        width: 1023px;
         height: 827.19px;
         
        
@@ -19,7 +19,7 @@
         
 }
 img.imageIndex{
-        width: 1000px;
+        width: 1023px;
          
         
        
@@ -71,7 +71,7 @@ img.imageIndex{
        
        
         z-index: 2;
-        
+        margin-top: 20px;
         color: white;
         letter-spacing: 6px;
         font-size: 25px;

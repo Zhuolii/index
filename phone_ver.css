@@ -65,7 +65,7 @@
         background-color: rgb(255, 255, 255);
         z-index: 10000;
         
-        width: 1050px;
+        width: 1100px;
         overflow: auto;
         position: fixed;
         top: 0px;
@@ -219,9 +219,15 @@
     /*video*/
     
    
-
-
-
+/*general properties*/
+.grid-item p{
+    margin: 0 30px 0 30px;
+}
+.grid-item h1{
+    display: flex;
+    justify-content: center;
+}
+/*general properties*/
 
 
 
