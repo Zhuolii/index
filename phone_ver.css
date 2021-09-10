@@ -227,6 +227,9 @@
     display: flex;
     justify-content: center;
 }
+.letter_spacing{
+    letter-spacing: 3px;
+}
 /*general properties*/
 
 
