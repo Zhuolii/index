@@ -1,7 +1,7 @@
 @media (max-width: 1023px){
 div.siteMobile{
     width: 1023px;
-    height: 8000px;
+    height: auto;
     
 }
 #image_grid_container{
@@ -134,7 +134,5 @@ div.grid-item img{
     color: black;
     text-underline-offset: 10px;
 }
-/*CSS diaporama*/
 
-/*CSS diaporama*/
 }
