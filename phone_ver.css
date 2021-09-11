@@ -283,13 +283,13 @@
    /* background-image:
     url('\image video/logochateau.jpg');*/
     
-    justify-content: center;
+   
     width: 200px;
     height: 200px;
     background-size: cover;
     display: table-row-group;
     display: grid;
-    text-align: center;
+    
     grid-gap:0;
 }
 #footer_grid ul li{
