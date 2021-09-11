@@ -2,6 +2,7 @@
 div.siteMobile{
     width: 1023px;
     height: 8000px;
+    
 }
 #image_grid_container{
     display: grid;
