@@ -5,6 +5,7 @@ div.siteMobile{
 }
 #image_grid_container{
     display: grid;
+    grid-template-rows: 250px 250px 327.19px;
     margin-top: 10em;
     
     
@@ -25,6 +26,7 @@ div.siteMobile{
 }
 img.imageIndex{
         width: 1023px;
+        z-index: -1000;
          
         
        
@@ -86,7 +88,7 @@ img.imageIndex{
         
         
 }
-#buttonPlus{
+.buttonPlus{
         
         
        
@@ -106,7 +108,7 @@ img.imageIndex{
         
         
 }
-button#buttonPlus:hover{
+button.buttonPlus:hover{
         background-color: rgb(85, 85, 85);
 }
 div.sidebar{

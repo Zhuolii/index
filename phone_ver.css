@@ -204,10 +204,14 @@
     #navTitle{
         position: fixed;
         z-index: 100;
-        
-        top: 2em;
-        left: 9em;
+        background:-webkit-linear-gradient(rgb(255, 196, 2),black);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        top: 0.5em;
+        left: 6em;
         font-weight: strong;
+        font-size: 50px;
+        font-family:serif
     }
     /* nav title*/
     /*video*/
