@@ -132,7 +132,7 @@ div.grid-item img{
 }
 .grid-item a{
     color: black;
-    text-underline-offset: 10px;
+    text-underline-offset: 25px;
 }
 
 }
