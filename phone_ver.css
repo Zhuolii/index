@@ -230,7 +230,7 @@
         
         display: block;
     }
-    #nav__checkbox:checked ~ ul.sidebarList{
+    #nav__checkbox:checked ~ ul.sidebarList {
         display: block;
         display:flex;
         flex-direction: column;
@@ -255,10 +255,10 @@
         
         
     }
-    #nav__checkbox:checked ~ label.nav__toggle .close{
+    #nav__checkbox:checked ~  label.nav__toggle .close{
         display: block;
     }
-    #nav__checkbox:checked ~ label.nav__toggle .menu{
+    #nav__checkbox:checked ~  label.nav__toggle .menu{
         display: none;
      
     }
