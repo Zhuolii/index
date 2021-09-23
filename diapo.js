@@ -36,25 +36,25 @@
             }  
             slides[slide_index2 - 1].style.display = "block";  
         }  
-       /*diapo 3 */
-       var slide_index3 = 1;  
-       displaySlides2(slide_index3);  
-       function nextSlide3(n) {  
-           displaySlides3(slide_index3 += n);  
-       }  
-       function currentSlide3(n) {  
-           displaySlides3(slide_index3 = n);  
-       }  
-       function displaySlides3(n) {  
-           var i;  
-           var slides = document.getElementsByClassName("showSlide3");  
-           if (n > slides.length) { slide_index3 = 1 }  
-           if (n < 1) { slide_index3 = slides.length }  
-           for (i = 0; i < slides.length; i++) {  
-               slides[i].style.display = "none";  
-           }  
-           slides[slide_index3 - 1].style.display = "block";  
-       }  
+      /*diapo 3 */
+      var slide_index3 = 1;  
+      displaySlides3(slide_index3);  
+      function nextSlide3(n) {  
+          displaySlides3(slide_index3 += n);  
+      }  
+      function currentSlide3(n) {  
+          displaySlides3(slide_index3 = n);  
+      }  
+      function displaySlides3(n) {  
+          var i;  
+          var slides = document.getElementsByClassName("showSlide3");  
+          if (n > slides.length) { slide_index3 = 1 }  
+          if (n < 1) { slide_index3 = slides.length }  
+          for (i = 0; i < slides.length; i++) {  
+              slides[i].style.display = "none";  
+          }  
+          slides[slide_index3 - 1].style.display = "block";  
+      }  
        /*diapo 4 */
        var slide_index4 = 1;  
        displaySlides4(slide_index4);  

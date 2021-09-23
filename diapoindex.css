@@ -67,7 +67,7 @@ div.showSlide.grid_diapo{
 .left4, .right4 {  
     cursor: pointer;  
     position: absolute;  
-    bottom: -6600px;
+    bottom: -6400px;
     width: auto;  
     padding: 16px;  
     margin: 100px 15px 0 15px;  
@@ -82,7 +82,7 @@ div.showSlide.grid_diapo{
 .left5, .right5 {  
     cursor: pointer;  
     position: absolute;  
-    bottom: -8500px;
+    bottom: -8150px;
     width: auto;  
     padding: 16px;  
     margin: 100px 15px 0 15px;  
@@ -97,7 +97,7 @@ div.showSlide.grid_diapo{
 .left6, .right6 {  
     cursor: pointer;  
     position: absolute;  
-    bottom: -10300px;
+    bottom: -9950px;
     width: auto;  
     padding: 16px;  
     margin: 100px 15px 0 15px;  
@@ -110,7 +110,7 @@ div.showSlide.grid_diapo{
     opacity:0.78; 
 }  
 .right, .right2, .right3, .right4, .right5, .right6 {  
-    right: 0;  
+    right: -40px;  
     border-radius: 3px 0 0 3px;  
 }  
     .left:hover, .right:hover {  
