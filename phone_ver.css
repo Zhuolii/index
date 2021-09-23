@@ -293,6 +293,9 @@
     
    
 /*general properties*/
+.grid-item{
+    margin: 30px 0 30px 0;
+}
 .grid-item p{
     margin: 0 30px 0 30px;
 }
@@ -307,6 +310,9 @@
 }
 .letter_spacing{
     letter-spacing: 3px;
+}
+h1#titrefooter{
+    border-bottom:solid rgb(255, 187, 0) 5px;
 }
 #footer_grid{
     
