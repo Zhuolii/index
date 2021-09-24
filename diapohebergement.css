@@ -15,14 +15,15 @@ div.showSlide.grid_diapo{
 }
 .slidercontainer { 
     height: 850px;
+    margin-top: -150px;
     
      
-    margin: auto;  
+     
 }  
 .left, .right {  
     cursor: pointer;  
     position: absolute;  
-    bottom: -800px;
+    bottom: -1800px;
     width: auto;  
     padding: 16px;  
     margin: 100px 15px 0 15px;  
@@ -52,7 +53,7 @@ div.showSlide.grid_diapo{
  .left3, .right3 {  
     cursor: pointer;  
     position: absolute;  
-    bottom: -4800px;
+    bottom: -4200px;
     width: auto;  
     padding: 16px;  
     margin: 100px 15px 0 15px;  
@@ -67,7 +68,7 @@ div.showSlide.grid_diapo{
 .left4, .right4 {  
     cursor: pointer;  
     position: absolute;  
-    bottom: -6400px;
+    bottom: -5400px;
     width: auto;  
     padding: 16px;  
     margin: 100px 15px 0 15px;  
@@ -82,7 +83,7 @@ div.showSlide.grid_diapo{
 .left5, .right5 {  
     cursor: pointer;  
     position: absolute;  
-    bottom: -8150px;
+    bottom: -7050px;
     width: auto;  
     padding: 16px;  
     margin: 100px 15px 0 15px;  
@@ -97,7 +98,7 @@ div.showSlide.grid_diapo{
 .left6, .right6 {  
     cursor: pointer;  
     position: absolute;  
-    bottom: -9950px;
+    bottom: -8650px;
     width: auto;  
     padding: 16px;  
     margin: 100px 15px 0 15px;  
