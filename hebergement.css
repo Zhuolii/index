@@ -136,4 +136,13 @@
     }
     
     }
+    .grid-item .miniMenu{
+        font-size: 60px;
+    }
+    .flex-item{
+        
+        align-items: center;
+        
+    }
+    
     
