@@ -278,6 +278,9 @@
         
      
     }
+    #nav__checkbox:checked ~ div.siteMobile{
+        height: 0px;
+    }
     
     
     /*nab button*/
@@ -335,8 +338,8 @@ h1#titrefooter{
     url('\image video/logochateau.jpg');*/
     
    
-    width: 200px;
-    height: 200px;
+    
+    height: auto;
     background-size: cover;
     display: table-row-group;
     display: grid;
