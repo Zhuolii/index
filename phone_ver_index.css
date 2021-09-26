@@ -4,6 +4,19 @@ div.siteMobile{
     height: auto;
     
 }
+button.découvrir{
+        height: 120px;
+        width: 350px;
+        position: relative;
+        left: 350px;
+        top: 300px;
+        font-size: 30px;
+        border: solid white 2px;
+        background-color: black;
+        color: white;
+        font-weight: bold;
+
+}
 #image_grid_container{
     display: grid;
     grid-template-rows: 341px 341px 341px;
@@ -22,6 +35,60 @@ div.siteMobile{
        
        
         background-size: cover;
+        
+        
+}
+#image_background1 {
+     
+        background-image:
+        linear-gradient(to bottom, rgba(172, 172, 172, 0.26), rgba(43, 43, 43, 0.623)),
+        url('images/image_mariage.jpg');
+        
+        width: 1023px;
+        height: 827.2px;
+        background-size: cover;
+       
+       
+        
+        
+        
+}
+#image_background2 {
+        background-image:
+        linear-gradient(to bottom, rgba(172, 172, 172, 0.26), rgba(43, 43, 43, 0.623)),
+        url('images/image_event.jpg');
+        width: 1023px;
+        height: 827.2px;
+        background-size: cover;
+       
+       
+        
+        
+        
+}
+#image_background3 {
+        background-image:
+        linear-gradient(to bottom, rgba(172, 172, 172, 0.26), rgba(43, 43, 43, 0.623)),
+        url('images/image_seminaire.jpg');
+        width: 1023px;
+        height: 827.2px;
+        background-size: cover;
+       
+       
+        
+        
+        
+}
+#image_background4 {
+        background-image:
+        linear-gradient(to bottom, rgba(172, 172, 172, 0.26), rgba(43, 43, 43, 0.623)),
+        url('images/image_hebergement.jpg');
+        width: 1023px;
+        height: 827.2px;
+        background-size: cover;
+       
+       
+        
         
         
 }
@@ -130,10 +197,11 @@ div.grid-item img{
     font-size: 40px;
 }
 .grid-item{
+       
     width: 1023px;
 }
 .grid-item a{
-    color: black;
+    color: white;
     text-underline-offset: 25px;
 }
 
