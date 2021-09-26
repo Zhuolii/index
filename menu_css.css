@@ -32,8 +32,8 @@ p.miniMenu1 {
 div.grid-item.flex-item{
     border: solid 2px black;
     padding-bottom: 30px;
-    width: 1010px;
-    
+    width: 980px;
+    margin: 0 20px 0 20px;
 
 }
 div.grid-item.flex-item h5 {
