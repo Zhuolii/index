@@ -1,4 +1,22 @@
+function displayNumber(){
+   
+    var number = document.getElementById("display_number");
+    var total = 5;
+    var num = document.getElementsByClassName("showSlide").length; 
+     i=1;
+     var currentSlide = number[i];
+     number= number.innerHTML = currentSlide + "/" + num;
 
+
+
+
+
+
+
+     return (number)
+
+
+}
         var slide_index = 1;  
         displaySlides(slide_index);  
         function nextSlide(n) {  
