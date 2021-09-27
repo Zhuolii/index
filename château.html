@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="menu_css.css">
     <link rel="stylesheet" href="diapoindex.css">
     <link rel="stylesheet" href="phone_ver_index.css">
    <link rel="icon" type="image/png" sizes="32x32"class="pageLogo" href="./favicon/favicon-96x96.png">
@@ -99,10 +100,8 @@
          
             <div id="image_gradient" class="imageIndex">
              <h1 id="navTitle"style="border-bottom:none;">Château de Moliens</h1>
-             <h1 id="welcome1"style="border-bottom:none;text-shadow: 5px 5px black;"><em>Château de Moliens</em> </h1>
-             <p id="welcome2"style="text-shadow: 5px 5px black;">OISE,60 </p>
-             <p id="welcome3"style="text-shadow: 5px 5px black;">UN CHÂTEAU MAJESTUEUX AVEC PARC ARBORÉ <br>DE 2HECTARES IDÉAL POUR  MARIAGES,RÉCÉPTIONS, <br> ET JE METS QUOI D'AUTRE?   </p>
-             <button class="buttonPlus">EN SAVOIR PLUS</button>
+             <h1 id="welcome1"style="border-bottom:none;text-shadow: 5px 5px black;font-size:70px"><em>Château de Moliens</em> </h1>
+         
             </div>
      </div>
         
@@ -124,17 +123,42 @@
     padding-bottom: 20px;
     ">LE DOMAINE</h5>
                 <br><br>
-                <p>Le Château de Moliens est une demeure de style anglo-normande construite au XIXème siècle par le comte d'Haudricourt. Il fut autrefois habité par le comte et la comtesse d'Haudricourt. Durant la seconde guerre mondiale, le Château de Moliens a été abimé
-                    et exploité par les soldats allemands.
-
-                    Depuis sa rénovation complète en 2021 , le Château est désormais exclusivement voué à une privatisation complète.
+                <div class="grid-item flex-item" >
+                    <p class="miniMenu1"style="height:120px;font-weight:bold;font-size:60px;justify-content:flex-start;" >LE CHÂTEAU </p>     
                     
-                    Un confort de premier choix, un service personnalisé et une décoration raffinée…le moindre détail a été pensé dans le respect de l'esprit des lieux. Avec ses 3 salles de réception, ses cinq chambres d'hotes, son parc et ses somptueux jardins,
+                   
+                     <input type="checkbox" id="checkbox_menu1" >
+                      <label for="checkbox_menu1" >
+                      <img class="up1" src=".\image video/up.png" style="width:80px;height:80px;position: relative;bottom: 100px;left:850px">
+                        <img class="down1"src=".\image video/down.png" style="width:80px;height:80px;position: relative;bottom: 100px;left:850px">
+                      </label> 
+                
+              <div class="menu1">
+                  <h5 style="font-size: 70px;margin: 0px auto 40px auto;">L'histoire du château ...</h5>
+                  <p style="font-size:70px;letter-spacing:2px;">Le Château de Moliens est une demeure de style anglo-normande construite au XIXème siècle par le comte d'Haudricourt.<br><br> Il fut autrefois habité par le comte ( qui était maire de Moliens en 1897 et aussi député de l'Oise en 1902 ) et la comtesse d'Haudricourt. <br><br>Durant la seconde guerre mondiale, le Château de Moliens a été abimé
+                    et exploité par les soldats allemands.</p><br><br>
+
+
+                    
+                   <p style="font-size:70px">
+
+                    Plus de 50ans plus tard, le Château a été rénové en 2021 par ses nouveaux prorpiétaires. <br>Certaines parties du château sont désormais déstinées à l'organisation de mariages,d'événement,séminaires et autres.
+                    
+                    Un confort de premier choix, un service personnalisé et une décoration raffinée…le moindre détail a été pensé dans le respect de l'esprit des lieux. Avec ses 2 salles de réception, ses cinq chambres d'hotes et son parc,
                      le château est le lieu idéal pour profiter de vos vacances en toute intimité, organiser votre événement ou vivre le plus simplement un moment privilégié avec vos proches.
                     
-                    À seulement 35 km de Beauvais et 50 km d'Amiens et 70km des plages, le Château offre 2 hectares de verdure qui vous sont entièrement réservés : les jardins répartis sur 3 niveaux, illustre héritage du classicisme français, côtoient la flore sauvage de la forêt.
+                    À seulement 35 km de Beauvais et 50 km d'Amiens et 70km des plages, le Château offre 2 hectares de verdure qui vous sont entièrement réservés.
                 <br>
                 <br>
+        
+                  
+        
+              </div>
+                  
+          
+                    
+          
+                
 
         </div>
         <!-- Code diapo-->
@@ -199,58 +223,7 @@
         <a class="right" onclick="nextSlide(1)">❯</a> 
     </div> 
     <!-- Code diapo-->
-    <h5 style="display: flex;
-    justify-content: center;
-    font-size: 70px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    letter-spacing: 3px;
-    border-bottom: solid black ;
-    padding-bottom: 20px;
-    ">NOS SERVICES</h5>
-    <br><br><br>
-        <div id="image_background1" class="grid-item grid-text">
-               <br><br><br>
-                <a href="mariage.html"id="mariage"style="text-decoration:none;"><h1>MARIAGE</h1></a>
-                <button class="découvrir"><a style="text-decoration:none"href="mariage.html">DÉCOUVRIR ❯❯</a></button>
-                
-                
-
-
-        </div>
-
-        <div id="image_background2" class="grid-item">
-               <br><br><br>
-                <a href="events.html"style="text-decoration:none;"><h1>ÉVÉNEMENTS</h1></a>
-                <button class="découvrir"><a style="text-decoration:none"href="events.html">DÉCOUVRIR ❯❯</a></button>
-               
-
-
-        </div>
-
-        <div id="image_background3"class="grid-item">
-               <br><br><br>
-                <a href="seminaires.html"style="text-decoration:none;"><h1>SÉMINAIRES</h1></a>
-                <button class="découvrir"><a style="text-decoration:none"href="seminaires.html">DÉCOUVRIR ❯❯</a></button>
-               
-
-
-        </div>
-
-        <div id="image_background4" class="grid-item">
-                 <br><br><br>
-                <a href="hebergements.html"style="text-decoration:none;"><h1>HÉBERGEMENTS</h1></a>
-                <button class="découvrir"><a style="text-decoration:none"href="hebergements.html">DÉCOUVRIR ❯❯</a></button>
-               
-
-
-        </div>
-
-       
-
-    </div>
-
-        
-
+   
       
     <div class="grid-container"id="footer_grid_container" >
      

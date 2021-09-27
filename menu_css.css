@@ -81,3 +81,34 @@ p.miniMenu2 {
 
 }
 /*menu bar*/
+/*menu bar*/
+div.menu3 {
+    display: none;
+    font-size: 30px;
+   
+}
+.up3{
+    display: none;
+}
+
+#checkbox_menu3:checked ~ div.menu3 {
+    display: inline-block;
+}
+#checkbox_menu3radialGradient ~ label img.up3{
+    display: inline-block;
+}
+#checkbox_menu3:checked ~ label img.down3{
+    display: none;
+}
+#checkbox_menu3{
+    display: none;
+    width: 80px;
+    height: 80px;
+
+}
+
+p.miniMenu3 {
+    justify-content: left;
+
+}
+/*menu bar*/
