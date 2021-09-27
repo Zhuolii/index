@@ -29,7 +29,7 @@ button.découvrir{
 
 #image_gradient {
         background-image:
-        linear-gradient(to bottom, rgba(161, 161, 161, 0.1), rgb(32, 32, 32)),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.33), rgba(255, 255, 255, 0)),
         url('image video/chateau1.1.jpg');
         width: 1023px;
         height: 1023px;
@@ -42,7 +42,7 @@ button.découvrir{
 #image_background1 {
      
         background-image:
-        linear-gradient(to bottom, rgba(172, 172, 172, 0.26), rgba(43, 43, 43, 0.623)),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.33), rgba(255, 255, 255, 0)),
         url('images/image_mariage.jpg');
         
         width: 1023px;
@@ -56,7 +56,7 @@ button.découvrir{
 }
 #image_background2 {
         background-image:
-        linear-gradient(to bottom, rgba(172, 172, 172, 0.26), rgba(43, 43, 43, 0.623)),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.33), rgba(255, 255, 255, 0)),
         url('images/image_event.jpg');
         width: 1023px;
         height: 827.2px;
@@ -69,7 +69,7 @@ button.découvrir{
 }
 #image_background3 {
         background-image:
-        linear-gradient(to bottom, rgba(172, 172, 172, 0.26), rgba(43, 43, 43, 0.623)),
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.33), rgba(255, 255, 255, 0)),
         url('images/image_seminaire.jpg');
         width: 1023px;
         height: 827.2px;
@@ -82,7 +82,7 @@ button.découvrir{
 }
 #image_background4 {
         background-image:
-        
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.03), rgba(255, 255, 255, 0)),
         url('images/image_hebergement.jpg');
         width: 1023px;
         height: 827.2px;
