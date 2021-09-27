@@ -378,7 +378,7 @@ div#footer_grid.grid-item{
 /*alarm animation */
 
 #alert_div{
-    animation-duration: 0.2s;
+    animation-duration: 0.5s;
     animation-name: slidein ;
     animation: slidein 2s timing-function delay iteration-count direction ease-in;
   }
