@@ -239,6 +239,7 @@
         transition:all 0.2s ease;
         display: block; 
         
+        
    
     }
     #nav__checkbox:checked ~ ul.sidebarList {
@@ -374,42 +375,45 @@ div#footer_grid.grid-item{
 }
 /*general properties*/
 
+/*alarm animation */
 
+#alert_div{
+    animation-duration: 0.2s;
+    animation-name: slidein ;
+    animation: slidein 2s timing-function delay iteration-count direction ease-in;
+  }
+  
+  @keyframes slidein {
+    0% {
+      margin-top: 0px;
+      
+    }
+    25% {
+     
+        margin-top: 40px;
+        
+      }
+      50% {
+     
+        margin-top: 80px;
+        
+      }
+    75% {
+     
+      margin-top: 120px;
+      
+    }
+  
+    100% {
+      margin-top: 160px;
+      
+    }
+  }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  /*alarm animation */
+ 
+  
+ 
 
 
 
