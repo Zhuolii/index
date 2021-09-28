@@ -42,6 +42,19 @@ button.découvrir{
         
         
 }
+#image_gradient_index {
+        background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.33), rgba(255, 255, 255, 0)),
+        url('image video/chateau1.1.jpg');
+        width: 1023px;
+        height: 1023px;
+        
+       
+       
+        background-size: cover;
+        
+        
+}
 #image_background1 {
      
         background-image:
@@ -49,7 +62,7 @@ button.découvrir{
         url('images/image_mariage.jpg');
         
         width: 1023px;
-        height: 827.2px;
+        height: 1023px;
         background-size: cover;
        
        
