@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="diapoindex.css">
+    <link rel="stylesheet" href="siteweb.css">
     <link rel="stylesheet" href="phone_ver_index.css">
    <link rel="icon" type="image/png" sizes="32x32"class="pageLogo" href="./favicon/favicon-96x96.png">
 <link rel="stylesheet" href="phone_ver.css"/>
@@ -39,44 +40,139 @@
    <!--Barre de navigation-->
  <!--Code site web-->
 <div class="siteWeb">
+    <div class="grid-item" 
+     id="alert_div">
+        <button onclick="hideAlert()" ; id="alert_button_close">X</button>
+      <p  id="alert_p">
+        Offre saison 2021: </p>
+        <ul id="alert_ul">
+            <li class="alert_li" >-15% sur tous les événements hehehehe</li>
+            <li class="alert_li">-10% sur tous les événements entre novembre et février</li>
+      
+
+
+        </ul><br>
+        <button class="découvrir" id="alert_button"><a id="alert_button_text" href="covid-19.html">Précautions COVID-19 ❯❯</a></button>
+          
+          
+        
+    <p></p>
+        
+
+
+ </div>
     
     
   <div class="videoDiv">
-   <video id="video" autoplay muted loop class="video"><source src=".\image video/video.mp4" type=video/mp4 style="width:1050px; height:1050px"></video>
-    </div>
-
-     <p>exeple contenu</p>
+   <video id="video" autoplay muted loop class="video"><source src=".\image video/video.mp4" type=video/mp4 style="width:1050px; height:1050px">
+    <p class="videop" id="vp1">exeple contenu</p>
      <br>
      <br>
      <br>
-
+</video>
 
 
 
 
      
- <div class="grid-container">
-    
-    <img class="footerlogo" src=".\image video/logochateau.jpg"/>
+     <div id="footer_grid" class="grid-item"style="width:1023px;height: 2000px;">
+        <div> <img src=".\image video/logochateau.jpg" alt=""style="height:200px;width:200px;border-radius:50%;margin: 20px 0 0 380px;">
+          <h1 style="background:-webkit-linear-gradient(rgb(255, 196, 2),rgb(255, 255, 255));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;font-weight: strong;
+font-size: 50px;
+font-family:serif;"id="titrefooter" >CHÂTEAU DE MOLIENS</h1>
+          <ul style="padding:0;list-style: none;margin-left:20px;"> 
+            
+
+             
+
+              <a href=""style="color:white;"><li>À PROPOS DU CHÂTEAU</li></a><br>
+
+              <li style="text-decoration:underline white 5px;text-underline-offset: 25px;">CONTACTEZ-NOUS :</li><br><br>
+              <li><a href="https://www.google.fr/maps/place/Ch%C3%A2teau+De+Moliens/@49.667147,1.806854,17z/data=!4m12!1m6!3m5!1s0x47e7154f47ec7c97:0xb08384420e4f447d!2sCh%C3%A2teau+De+Moliens!8m2!3d49.6671329!4d1.8067643!3m4!1s0x47e7154f47ec7c97:0xb08384420e4f447d!8m2!3d49.6671329!4d1.8067643"
+               style="background-color: rgb(73, 73, 73);
+               color: white;
+               border-radius: solid rgb(73, 73, 73);
+               border-top:none;
+               width: 1000px;
+               border-left:none;
+               border-right:none;
+               top:-20px;
+               overflow: hidden;
+               font-size:50px;
+               font-family:Georgia, 'Times New Roman', Times, serif;
+               transform:scale(1);">
+                <img src=".\image video/logoadresse.png "style="width:60px;height:60px;position:relative;top:0px;padding-right:20px;"><br>
+                   17 rue de Picardie<br>
+                60220 Moliens<br><br></li></a>
+                <li> <a href="tel:0644221786" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})"
+                   style="background-color: rgb(73, 73, 73);
+                   color: white;
+                   border-radius: solid rgb(73, 73, 73);
+                   border-top:none;
+                   width: 1000px;
+                   border-left:none;
+                   border-right:none;
+                   top:-20px;
+                   overflow: hidden;
+                   font-size:50px;
+                   font-family:Georgia, 'Times New Roman', Times, serif;
+                   transform:scale(1);"> 
+                     <img src=".\image video/logotelephone.png "style="width:60px;height:60px;position:relative;top:0px;padding-right:20px;"><br>
+                06 44 22 17 86 <br><br></li></a>
+                <li><a href="mailto: lechateaudemoliens@gmail.com"style="background-color: rgb(73, 73, 73);
+                   color: white;
+                   border-radius: solid rgb(73, 73, 73);
+                   border-top:none;
+                   width: 1000px;
+                   border-left:none;
+                   border-right:none;
+                   top:-20px;
+                   overflow: hidden;
+                   font-size:50px;
+                   font-family:Georgia, 'Times New Roman', Times, serif;
+                   transform:scale(1);">
+                     <img src=".\image video/logoemail.png "style="width:60px;height:60px;position:relative;top:25px;padding-right:20px;z-index:-1;"><br>
+                lechateaudemoliens@gmail.com</a>
+
+           </li><br>
+
+
+
+              
+          </ul>
+          <ul style="padding:0;list-style: none;margin-left:20px;z-index:-1;">
+           <li style="font-size:50px;
+           font-family:Georgia, 'Times New Roman', Times, serif;
+           transform:scale(1);">Retrouvez-nous sur:</li><img src=".\image video/instalogo2.png "style="width:80px;height:80px;position:relative;top:5px;">
+           <a href="https://www.instagram.com/chateau_de_moliens?r=nametag"style="font-size:50px;position:relative;bottom:20px;color:white;;">Instagram</a>
+           <br><br><br>
+               <a href="covid-19.html"> <li>Infos sur COVID-19</li></a><br>
+               <a href=""> <li>Mentions légales</li></a><br>
+               <a href=""><li>Politique de confidentalité </li></a>
+               <a href="https://icones8.fr/"><li>Icones </li></a>
+          </ul>
+       </div>
+
+  </div>
+</div>
    
-    <br>
-  
-    <br>
-    
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    
-    
-    
-    
-    
-    
-    
-    
-   </div>
+
+ 
+
+</div>    
+
+
+
+
+
+
+
+
+
+</div>
+
     
     
     
@@ -125,7 +221,7 @@
  </div>
      
     
-    </div>
+   
  
 
 
@@ -350,7 +446,7 @@
            
     
         </div>
-                </div>  
+                
       
     <div class="grid-container"id="footer_grid_container" >
      
@@ -450,7 +546,7 @@
    
           
    
-       </div>    
+      
     
 
         
@@ -461,6 +557,7 @@
         
         
 </div>
+
         
         
         

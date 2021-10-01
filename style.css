@@ -47,7 +47,7 @@
     
     
     /*Navigation bar properties*/
-    /*hover effect navbar*//*
+    /*hover effect navbar*/
     #acceuil::after{
         content: "";
         display: inline-block;
@@ -115,7 +115,7 @@
     #hebergements:hover::after{
         transform:scale(1)
         }
-    */
+    
     /*hover effect navbar*/
     button.buttonNavbar{
         color: black;
@@ -232,14 +232,21 @@
         font-size: larger;
        position: relative;
        top: 2em;
+       text-decoration: underline black;
+        text-underline-offset: 5px;
+        
     }
     
     
-    li a:hover{
-    color:rgb(172, 172, 172);
-    
-    transition: 0.5s ease;
+    div ul li a:hover{
+        text-decoration: underline white 3px;
+        transition: all 1s ease-out;   
+        
+        
     }
+    
+    
+    
     
     /* navigation bar list properties*/
     /*image properties*/
