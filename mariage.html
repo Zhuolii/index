@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="icon" type="image/png" sizes="32x32" href="C:\Users\liphi\OneDrive\Bureau\site-web-repository/favicon/favicon-32x32.png">
+    <link rel="stylesheet" href="diapoindex.css">
+    <link rel="stylesheet" href="phone_ver_index.css">
+   <link rel="icon" type="image/png" sizes="32x32"class="pageLogo" href="./favicon/favicon-96x96.png">
 <link rel="stylesheet" href="phone_ver.css"/>
 <link rel="stylesheet" href="style.css"/>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous/>"/>
-
+ <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous/>"/>
+    -->
 </head>
 <body>
+    <!--Barre de navigation-->
     <nav class="nav">
         <input type="checkbox" id="nav__checkbox" class="nav__checkbox">
         <label for="nav__checkbox" class="nav__toggle">
@@ -16,27 +19,30 @@
         </label>
     <div class="sidebar">
         
-        <p class ="headtitle"><a href="index.html">CHÂTEAU DE MOLIENS , 60220 OISE</a></p>
+       
 
-         <ul class="sidebarList">
-       <a href="index.html" class="imglink"><img class="imglogo" src=".\image video/homeicone.jpg"/></a> 
-      
-       <li><a href="index.html"  id="index">ACCUEIL</a></li>
-       <li><a href="mariage.html"id="mariage"class="current">MARIAGE</a></li>
-       <li><a href="events.html" id="events">ÉVÉNEMENTS/RÉCÉPTIONS</a></li>
-       <li><a href="seminaires.html"id="seminaires">SÉMINAIRES</a></li>
-       <li><a href="hebergements.html"id="hebergements">HÉBERGEMENTS</a></li>
-       <button class="buttonNavbar">VOIR TARIFS</button>
+        <ul class="sidebarList" style="padding-left: 0;">
+            <a href="index.html" class="imglink"><img class="imglogo"src=".\image video/logochateau.jpg"/></a> 
+            <p class ="headtitle"><a href="index.html">CHÂTEAU DE MOLIENS , 60220 OISE</a></p>
+            <li><a href="index.html"  id="index"style="width:1023px;margin-top:80px;">ACCUEIL</a></li>
+            <li><a href="château.html"id="château"style="width:1023px">LE CHÂTEAU</a></li>
+            <li><a href="mariage.html"id="mariage"style="width:1023px"class="current top">MARIAGE</a></li>
+            <li><a href="events.html" id="events"style="width:1023px">ÉVÉNEMENTS/RÉCÉPTIONS</a></li>
+            <li><a href="seminaires.html"id="seminaires"style="width:1023px">SÉMINAIRES</a></li>
+            <li><a href="hebergements.html"id="hebergements"style="width:1023px;border-bottom:solid black;">HÉBERGEMENTS</a></li>
+            
        </ul>
        </div>
 
     </nav>
 
-   
- 
-<div class="videoDiv">
-<video id="video" autoplay muted loop class="video"><source src=".\image video/video.mp4" type=video/mp4></video>
- </div>
+   <!--Barre de navigation-->
+ <!--Code site web-->
+<div class="siteWeb">
+    
+  <div class="videoDiv">
+   <video id="video" autoplay muted loop class="video"><source src=".\image video/video.mp4" type=video/mp4 style="width:1024px; height:1024px"></video>
+    </div>
 
      <p>exeple contenu</p>
      <br>
@@ -47,10 +53,10 @@
 
 
 
-</div></div>
-<div class="footer">
+     
+ <div class="grid-container">
     
-    <img class="footerlogo" src=".\image video/homeicone.jpg"/>
+    <img class="footerlogo" src=".\image video/logochateau.jpg"/>
    
     <br>
   
@@ -78,11 +84,311 @@
    
 
 
+</div>
+
+<!--Code site web-->
+<!--Code mobile-->
+
+<div class="siteMobile">
+   
+   <div class="grid-container" >
+     
+     <div id="image_grid_container" class="grid-item">
+         
+            <div id="image_gradient" class="imageIndex">
+             <h1 id="navTitle"style="border-bottom:none;">Château de Moliens</h1>
+             <h1 id="welcome1"style="border-bottom:none;font-size:100px;font-style:normal;margin-top:400px;text-shadow: 5px 5px black;">Mariages et fêtes </h1>
+             <p id="welcome2"> </p>
+             <p id="welcome3"></p>
+             <!--<button class="buttonPlus">EN SAVOIR PLUS</button>-->
+            </div>
+     </div>
+        
+        
+            
+        <div id="accroche_grid" class="grid-item">
+            <br><br>
+                
+                <a href=""><p class="letter_spacing" style=
+                    "font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                    font-size:90px;
+                    color: rgb(58, 58, 58);
+                    padding-bottom: 30px;
+                    border-bottom: solid rgb(58, 58, 58) 4px;
+                    margin:40px 0 100px 0;"
+                    > Mariages au Château</p></a>
+                <p style="line-height: 90px;">Le Château de Moliens offre un lieu de mariage au cadre idéal qui vous offrira une expérience inoubliable.
+                     Qu’il s’agisse d’un petit mariage privé et intime pour deux ou d’une affaire somptueuse pour plus de 100 invités,
+                      notre refuge romantique au château offre votre journée de rêve de conte de fées.
+                     
+                <br>
+                <br>
+
+        </div>
+            <div class="slidercontainer">  
+        <div class="showSlide fade grid_diapo">  
+            <div  class="grid-item" id="image_grid_container">
+                 
+                 <div id="image_gradient1" class="imageIndex">
+                   
+                
+                
+                 </div>
+            </div>
+        </div>  
+        <div class="showSlide fade grid_diapo">  
+            <div id="image_grid_container" class="grid-item">
+         
+                <div id="image_gradient2" class="imageIndex">
+        
+                 
+                </div>
+         </div>  
+        </div>  
+  
+        <div class="showSlide fade grid_diapo">  
+            <div id="image_grid_container" class="grid-item">
+         
+                <div id="image_gradient3" class="imageIndex">
+                
+                
+                </div>
+         </div> 
+        </div>  
+        <div class="showSlide fade grid_diapo">  
+            <div id="image_grid_container" class="grid-item">
+         
+                <div id="image_gradient4" class="imageIndex">
+                 
+                <!-- <button class="plus1" >EN SAVOIR PLUS</button>-->
+                </div>
+         </div> 
+        </div>  
+        <!-- Navigation arrows -->  
+         <a class="left" onclick="nextSlide(-1)">❮</a>  
+        <a class="right" onclick="nextSlide(1)">❯</a> 
+    </div> 
+    <div class="grid-item">
+        <h5 style="display: flex;
+         justify-content: center;
+         font-size: 100px;
+         font-family:Georgia, 'Times New Roman', Times, serif;
+         letter-spacing: 3px;
+         border-bottom: solid rgb(58, 58, 58) ;
+          color:rgb(58, 58, 58);
+         font-weight: normal;
+         padding-bottom: 40px;
+         padding-left: 110px;
+    
+         ">Cérémonie de mariage</h5>
+          <br><br><br>
+          <p style="line-height: 90px;">Organisez votre cérémonie de mariage dans la chapelle typiquement française à côté du château, représentée dans la photographie ci-dessous ou dans un mariage laïque dans les jardins glorieux, l’atmosphère est tout simplement exceptionnelle.</p><br><br>
+
+          <p style="line-height: 90px;">Avec son apparence de conte de fées, le château a exactement le bon mélange d’ingrédients pétillants pour une expérience magique, excitante et inoubliable.</p><br><br>
+          <p style="line-height: 90px;">Promenez-vous dans les magnifiques jardins en sirotant du champagne glacé, en savourant les moments précieux avec votre famille proche et vos amis.</p><br><br>
+            
+          <p style="line-height: 90px;">Un mariage romantique au château gothique Château de Moliens est un rêve que nous réaliserons. Notre personnel professionnel de l’hôtel, se fera un plaisir de vous aider à organiser votre mariage romantique au château.</p><br><br>
+            
+          <p style="line-height: 90px;">Nous sommes à votre service, avec une sélection de menus, de petit-déjeuner de mariage, de petites ou grandes décorations florales, de bouquet de mariée, de photographie de mariage, de transport de mariage, de musique de mariage et plus encore.</p><br><br>
+          <p style="line-height: 90px;">Votre mariage au Château, doit être une expérience unique pour les mariés et les invités du mariage et nous prenons le plus grand soin pour que vous puissiez en profiter sans être dérangés. Pour cette raison, le château accueille normalement un seul mariage par week-end. Se marier en France est extrêmement populaire, c’est pourquoi vous devriez contacter le château afin de garantir votre mariage de rêve.</p>
+        
+    </div>
+    <div class="grid-item">
+        <h5 style="display: flex;
+         justify-content: center;
+         font-size: 70px;
+         font-family:Georgia, 'Times New Roman', Times, serif;
+         letter-spacing: 3px;
+         border-bottom: solid rgb(58, 58, 58) ;
+          color:rgb(58, 58, 58);
+         font-weight: normal;
+         padding-bottom: 40px;
+         padding-left: 110px;
+         margin-bottom: 20px;
+    
+         ">Chambres et installations pour les invités de mariage</h5>
+          <br><br><br>
+         
+
+
+            <p style="line-height: 90px;">Nous mettons à votre disposition nos cinq chambres d'hôtes entièrement rénovées avec vue sur le jardin.
+                 Toutes nos chambres disposent d'un lit double avec salle de bain privative.
+            </p>
+            <button class="découvrir"style="
+            margin:100px 30px 50px 20px;
+            
+            width:980px;
+            height:250px;
+            
+            border-radius:150px;
+            background-color:rgb(58, 58, 58);
+            letter-spacing:2px;"><a style="text-decoration:none;font-size:55px"href="hebergements.html">Voir les hébergements du Château ❯❯</a></button>
+              <div class="slidercontainer">  
+                <div class="showSlide2 fade grid_diapo">  
+                  <div  class="grid-item" id="image_grid_container">
+                       
+                       <div id="image_royale1" class="imageIndex">
+                         
+                          
+          
+                       </div>
+                  </div>
+                </div>  
+               <div class="showSlide2 fade grid_diapo">  
+                  <div id="image_grid_container" class="grid-item">
+               
+                      <div id="image_royale2" class="imageIndex">
+              
+                      
+                      </div>
+               </div>  
+               </div>  
+        
+                <div class="showSlide2 fade grid_diapo">  
+                  <div id="image_grid_container" class="grid-item">
+               
+                      <div id="image_royale3" class="imageIndex">
+                      
+                       
+                      </div>
+                   </div> 
+                </div>  
+               <div class="showSlide2 fade grid_diapo">  
+                  <div id="image_grid_container" class="grid-item">
+               
+                      <div id="image_royale4" class="imageIndex">
+                       
+                      
+                      </div>
+                  </div> 
+               </div>  
+               <!-- Navigation arrows -->  
+                <a class="left2"style="bottom:-8500px;" onclick="nextSlide2(-1)">❮</a>  
+               <a class="right2"style="bottom:-8500px;" onclick="nextSlide2(1)">❯</a> 
+              </div> 
+    
+    </div>
+    
+
+    
+
+        
+
+      
+    <div class="grid-container"id="footer_grid_container" >
+     
+        <div  class="grid-item"
+         width:1023px;height: 1023px;
+           background-color: rgb(73,73, 73);">
+           
+        
+
+            
+               
+   
+   
+           <div id="footer_grid" class="grid-item"style="width:1023px;height: 1800px;">
+                 <div> <img src=".\image video/logochateau.jpg" alt=""style="height:200px;width:200px;border-radius:50%;margin: 20px 0 0 380px;">
+                   <h1 style="background:-webkit-linear-gradient(rgb(255, 196, 2),rgb(255, 255, 255));
+                   -webkit-background-clip: text;
+                   -webkit-text-fill-color: transparent;font-weight: strong;
+        font-size: 50px;
+        font-family:serif;"id="titrefooter" >CHÂTEAU DE MOLIENS</h1>
+                   <ul style="padding:0;list-style: none;margin-left:20px;"> 
+                     
+
+                      
+
+                       <a href=""style="color:white;"><li>À PROPOS DU CHÂTEAU</li></a><br>
+
+                       <li style="text-decoration:underline white 5px;text-underline-offset: 25px;">CONTACTEZ-NOUS :</li><br><br>
+                       <li><a href="https://www.google.fr/maps/place/Ch%C3%A2teau+De+Moliens/@49.667147,1.806854,17z/data=!4m12!1m6!3m5!1s0x47e7154f47ec7c97:0xb08384420e4f447d!2sCh%C3%A2teau+De+Moliens!8m2!3d49.6671329!4d1.8067643!3m4!1s0x47e7154f47ec7c97:0xb08384420e4f447d!8m2!3d49.6671329!4d1.8067643"
+                        style="background-color: rgb(73, 73, 73);
+                        color: white;
+                        border-radius: solid rgb(73, 73, 73);
+                        border-top:none;
+                        width: 1000px;
+                        border-left:none;
+                        border-right:none;
+                        top:-20px;
+                        overflow: hidden;
+                        transform:scale(1);">
+                         <img src=".\image video/logoadresse.png "style="width:60px;height:60px;position:relative;top:0px;padding-right:20px;"><br>
+                            17 rue de Picardie<br>
+                         60220 Moliens<br><br></li></a>
+                         <li> <a href="tel:0644221786" onclick="ga('send', 'event', { eventCategory: 'Contact', eventAction: 'Call', eventLabel: 'Mobile Button'})"
+                            style="background-color: rgb(73, 73, 73);
+                            color: white;
+                            border-radius: solid rgb(73, 73, 73);
+                            border-top:none;
+                            width: 1000px;
+                            border-left:none;
+                            border-right:none;
+                            top:-20px;
+                            overflow: hidden;
+                            transform:scale(1);"> 
+                              <img src=".\image video/logotelephone.png "style="width:60px;height:60px;position:relative;top:0px;padding-right:20px;"><br>
+                         06 44 22 17 86 <br><br></li></a>
+                         <li><a href="mailto: lechateaudemoliens@gmail.com"style="background-color: rgb(73, 73, 73);
+                            color: white;
+                            border-radius: solid rgb(73, 73, 73);
+                            border-top:none;
+                            width: 1000px;
+                            border-left:none;
+                            border-right:none;
+                            top:-20px;
+                            overflow: hidden;
+                            transform:scale(1);">
+                              <img src=".\image video/logoemail.png "style="width:60px;height:60px;position:relative;top:40px;padding-right:20px;"><br>
+                         lechateaudemoliens@gmail.com</a>
+
+                    </li><br>
+
+
+
+                       
+                   </ul>
+                   <ul style="padding:0;list-style: none;margin-left:20px;">
+                    <li>Retrouvez-nous sur:</li><img src=".\image video/instalogo2.png "style="width:80px;height:80px;position:relative;top:5px">
+                    <a href="https://www.instagram.com/chateau_de_moliens?r=nametag"style="font-size:50px;position:relative;bottom:20px;color:white;">Instagram</a>
+                    <br><br><br>
+                    <a href="covid-19.html"> <li>Infos sur COVID-19</li></a><br>
+                    <a href=""> <li>Mentions légales</li></a><br>
+                        <a href=""><li>Politique de confidentalité </li></a>
+                        <a href="https://icones8.fr/"><li>Icones </li></a>
+                   </ul>
+                </div>
+
+           </div>
+        </div>
+            
+   
+          
+   
+       </div>    
+    
+
+        
+        
+        
+        
+        
+        
+        
+</div>
+        
+        
+        
+<!--Code mobile-->
+  
+ <script type="text/javascript" src="diapo.js"></script>
 
 
 
 
- <script scr="javascript.js"></script>
+
+
+
 </body>
 
 

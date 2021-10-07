@@ -1,0 +1,43 @@
+div.menu1 p{
+    display: none;
+    font-size: 50px;
+}
+div.menu2 p{
+    display: none;
+    font-size: 50px;
+
+}
+.up1{
+    display: none;
+}
+.up2{
+    display:none;
+}
+#checkbox_menu:checked ~ div.menu1 p{
+    display: inline;
+}
+#checkbox_menu:checked ~ label img.up1{
+    display: block;
+}
+#checkbox_menu:checked ~ label img.down1{
+    display: none;
+}
+
+#checkbox_menu2:checked ~ div.menu2 p{
+    display: inline;
+}
+#checkbox_menu2:checked ~ label img.up2 {
+    display: block;
+}
+#checkbox_menu2:checked ~ label img.down2 {
+    display: none;
+}
+
+#checkbox_menu{
+    display: none;
+
+}
+#checkbox_menu2{
+    display: none;
+
+}

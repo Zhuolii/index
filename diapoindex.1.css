@@ -1,0 +1,146 @@
+@media (max-width: 1023px)
+{
+body {  
+    margin: 0;  
+    background: #e6e6e6;  
+}  
+.showSlide {  
+    display: none  
+}  
+    .showSlide img {  
+        width: 100%;  
+    }  
+div.showSlide.grid_diapo{
+    display: grid;
+}
+.slidercontainer { 
+    
+    
+    position: relative;  
+    margin: auto;  
+}  
+.left, .right {  
+    cursor: pointer;  
+    position: absolute;  
+    top: 50%;  
+    width: auto;  
+    padding: 16px;  
+    margin: 100px 15px 0 15px;  
+    color: black;  
+    font-weight: bold;  
+    font-size: 18px;  
+    transition: 0.6s ease;  
+    border-radius: 10px;
+    background-color: gray;
+    opacity:0.78; 
+}  
+.right {  
+    right: 0;  
+    border-radius: 3px 0 0 3px;  
+}  
+    .left:hover, .right:hover {  
+        background-color: rgba(115, 115, 115, 0.8);  
+    }  
+.content {  
+    color: #eff5d4;  
+    font-size: 30px;  
+    padding: 8px 12px;  
+    position: absolute;  
+    top: 10px;  
+    width: 100%;  
+    text-align: center;  
+}  
+.active {  
+    background-color: #717171;  
+}  
+/* Fading animation */  
+.fade {  
+
+    -webkit-animation-name: fade;  
+    -webkit-animation-duration: 1.5s;  
+    animation-name: fade;  
+    animation-duration: 1.5s;  
+}  
+@-webkit-keyframes fade {  
+    from {  
+        opacity: .4  
+    }  
+    to {  
+        opacity: 1  
+    }  
+}  
+
+@keyframes fade {  
+    from {  
+        opacity: .4  
+    }  
+    to {  
+        opacity: 1  
+    }  
+}  
+#image_gradient1 {
+    background-image:
+    linear-gradient(to bottom, rgba(214, 210, 210, 0.1), black),
+    url('images/img1.jpg');
+    width: 1023px;
+    height: 827.19px;
+    background-size: cover;
+    display: flex;
+    z-index: -1;
+    
+}
+#image_gradient2 {
+    background-image:
+    linear-gradient(to bottom, rgba(214, 210, 210, 0.1), black),
+    url('images/img2.jpg');
+    width: 1023px;
+    height: 827.19px;
+    display: flex;
+    z-index: -1;
+   
+    background-size: cover;
+    
+    
+}
+#image_gradient3 {
+    background-image:
+    linear-gradient(to bottom, rgba(214, 210, 210, 0.1), black),
+    url('images/img3.jpg');
+    width: 1023px;
+    height: 827.19px;
+    display: flex;
+    z-index: -1;
+   
+    background-size: cover;
+    
+    
+}
+#image_gradient4 {
+    background-image:
+    linear-gradient(to bottom, rgba(214, 210, 210, 0.1), black),
+    url('images/img4.jpg');
+    width: 1023px;
+    height: 827.19px;
+    
+    display: flex;
+    z-index: -1;
+    background-size: cover;
+    
+    
+}
+.plus1{
+    z-index: 2;
+    width: 300px;
+    height: 74.8px;
+    color: white;
+    letter-spacing: 6px;
+    font-size: 30px;
+    background-color: rgb(0, 0, 0);
+    border: solid white 2px;
+    display: flex;
+    align-items: center;
+    margin-top: 650px;
+    margin-left: 350px;
+    padding: 0x;
+}
+}

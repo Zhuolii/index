@@ -1,0 +1,315 @@
+
+/*titre*/
+@media only screen and
+ (min-width: 1024px){
+     body{
+         margin:0;
+     }
+     .siteMobile{
+         display: none;
+     }
+ #nav__checkbox{
+     display: none;
+ }
+ label svg{
+     display: none;
+ }
+.headtitle{
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    padding:0;
+    position: absolute;
+    left: 11%;
+    top: 0;
+    color: white;
+    font-size: 25px;
+    font-weight: none;
+    letter-spacing: 2px;
+    border: solid 1px;
+    border-right: white;
+    border-bottom: white;
+    border-top: white;
+    
+    }
+    
+    .headtitle a {
+        text-decoration: white;
+        color: white;
+    }
+    .headtitle a:hover{
+        color: white;
+    }
+    
+    
+    
+    
+    
+    
+    /*Navigation bar properties*/
+    /*hover effect navbar*/
+    #acceuil::after{
+        content: "";
+        display: inline-block;
+      
+        width: 0;
+        height: 0px;
+        background: white;
+        transform: scale(0%);
+        transition: transform 0.2s ease-in-out;
+    }
+    #acceuil:hover::after{
+        transform:scale(1)
+    }
+    #mariage::after{
+        content: "";
+        display: inline-block;
+      
+        width: 0;
+        height: 0;
+        background: white;
+        transform: scale(0%);
+        transition: transform 0.2s ease-in-out;
+    }
+    #mariage:hover::after{
+        transform:scale(1)
+    }
+    #events::after{
+        content: "";
+        display: inline-block;
+      
+        width: 0;
+        height: 0;
+        background: white;
+        transform: scale(0%);
+        transition: transform 0.2s ease-in-out;
+    }
+    #events:hover::after{
+        transform:scale(1)
+    }
+    
+    
+    #seminaires::after{
+        content: "";
+        display: inline-block;
+    
+        width: 0;
+        height: 0;
+        background: white;
+        transform: scale(0%);
+        transition: transform 0.2s ease-in-out;
+    }
+    #seminaires:hover::after{
+        transform:scale(1)
+    }
+    #hebergements::after{
+        content: "";
+        display: inline-block;
+     
+        width: 0;
+        height: 0;
+        background: white;
+        transform: scale(0%);
+        transition: transform 0.2s ease-in-out;
+    }
+    #hebergements:hover::after{
+        transform:scale(1)
+        }
+    
+    /*hover effect navbar*/
+    button.buttonNavbar{
+        color: black;
+        background-color: white;
+        width: 13%;
+        height: 45%;
+        text-align: center;
+        letter-spacing: 2px;
+        font-size: 16px;
+        font-weight: bold;
+        border: solid white;
+        border-radius: 2px;
+        transition: 0.5s ;
+        position: relative;
+       top: 2em;
+    
+        } 
+    button.buttonNavbar:hover{
+    
+        color: white;
+        background-color: black;
+     }   
+    
+    
+    
+    .sidebar{
+    grid-area: sidebar;
+    background-color: rgba(14, 13, 13, 0.95);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow-y: visible;
+    width:100%;
+    z-index: 3;
+    color: grey;
+    padding: 0;
+    margin: 0px 0px;
+    border: solid rgba(14, 13, 13, 0.98);
+    border-radius: 5px;
+    height: 6em;
+    
+    
+    }
+    
+    
+    /*Navigation bar properties*/
+    
+    /*checkbox properties*/
+    .checkbtn{
+        font-size: 30px;
+        color: white;
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    #check{
+        display: none;
+    }
+    /*checkbox properties*/
+    
+    /*media properties*/
+    
+    
+    
+    /*media properties*/
+    
+    /* navigation bar list properties*/
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .sidebarList{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items:center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+    }
+    ul .sidebarList{
+        width: 100%;
+    }
+    .sidebarList .current{
+        text-decoration: solid white underline 3px;
+        text-underline-offset: 4px;
+        
+    }
+        
+    
+    div ul li a{
+        margin: 0;
+        padding: 0;
+        
+        box-sizing: border-box;
+        display: inline-block;
+        display: table-row;
+        align-items: center;
+        color: white;
+        text-align: center;
+        justify-items: center;
+    
+       
+        background-color: rgba(0, 0, 0, 0,6);
+    
+        border-radius: 4px;
+        
+        text-decoration: none;
+        letter-spacing: 2px;
+        font-size: larger;
+       position: relative;
+       top: 2em;
+    }
+    
+    
+    
+    
+    /* navigation bar list properties*/
+    /*image properties*/
+    
+    
+    .imglink{
+        padding: 0;
+        margin: 0;
+        background-color:rgba(14, 13, 13, 0.98);
+    
+        
+    }
+    /*image position properties*/
+    .imglogo{
+     float: left;
+     position: absolute;
+     left:10px;
+     top:15px;
+     border-radius: 5px;
+     width: 60px;
+     height: 60px;
+     
+    
+    
+       
+    }
+    link.pageLogo{
+        border-radius: 5px;
+    }
+    /*image properties*/
+    /* video properties */
+    
+    .video{
+     position: relative;
+     top: -20%;
+     left: 0px;
+     width: 100%;
+     z-index: 2;
+     
+     
+    }
+    .header{
+        grid-area: header;
+     
+    
+    
+    }
+    .content{
+    grid-area: content;
+    
+    }
+    
+    
+    
+    /* Bas de page */
+    
+    div.grid-container{
+      
+        bottom: 0px;
+        left: 0px;
+        background-color: rgba(14, 13, 13, 0.98);
+        border: solid rgba(14, 13, 13, 0.98) 2px;
+        color: white;
+        display:grid;
+        grid-template-rows:  350px 350px 350px ;
+        }
+      
+    
+        div.grid-container img.footerlogo{
+     
+        grid-row: cols-1;
+    }
+    /* Bas de page */ 
+        
+    
+}
+
